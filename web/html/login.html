@@ -148,7 +148,7 @@
                 const rightColor = RandomUtil.randomIntRange(0xFFFFFF / 2, 0xDDDDDD).toString(16);
                 const deg = RandomUtil.randomIntRange(0, 360);
                 const background = `linear-gradient(${deg}deg, #${leftColor} 10%, #${rightColor} 100%)`;
-                document.querySelector('#app').style.background = this.themeSwitcher.isDarkTheme ? colors.dark.bg : background;
+                document.querySelector('#app').style.background = this.themeSwitcher.isPinkTheme ? colors.pink.bg : background;
             },
         },
         watch: {
